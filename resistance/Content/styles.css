@@ -1,0 +1,428 @@
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*Signature Image*/
+
+#firstname {
+ height: 300%;
+ width: 300%;
+
+}
+
+
+
+/* Remove bullets from list items */
+
+ul {
+ list-style: none;
+ padding: 0;
+}
+
+/* Thumbnail size for image gallery*/
+.thumb {
+ display: inline-block;
+ max-height: 50vmax;
+ max-width: 50max; 
+ margin: auto;  
+}
+
+
+/*List items in Lightbox*/
+
+.imagebox {
+    display: inline-block;
+    margin: 0.17vmax;
+}
+
+
+
+/* Name Banner IDs*/
+
+
+
+
+
+
+
+#lastname {
+    font-family: 'Nunito Light';
+    font-size: 2.75vmax;
+    margin-top: -5.25vmax;
+    margin-bottom: 0;
+    text-align: right;
+    font-weight: 100;
+    color: #22B7DF;
+    letter-spacing: .05vmax;
+
+}
+
+/* Footer IDs */
+
+#copyright {
+    font-family: "Nunito Light";
+    text-align: center;
+    font-size: 1.8vmax;
+    margin: 6% auto;
+    letter-spacing: .02vmax;
+}
+
+/* Navigation Bar */
+
+nav {
+    
+    font-family: "Nunito Light";
+    font-weight: normal;
+    margin-top: 5%;
+}
+
+nav ul  {
+   
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+  width: 100%; 
+    
+
+}
+
+
+nav ul li a {
+    display: block;
+    margin: 0;
+    font-size: 3vmax;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    letter-spacing: .03vmax;
+}
+
+/* Links */
+
+/* unvisited link */
+
+
+a:link {
+    color: black;
+}
+
+
+/* visited link */
+a:visited {
+    color: #022B37;
+}
+
+/* mouse over link */
+a:hover, a:focus {
+    background-color: #eee;
+    color: #22B7Df;
+}
+
+/* selected link */
+a:active {
+    color: deepskyblue;
+    background-color: #bbb;
+}
+
+/* Formatting for Biography Page*/
+
+.bioh2 {
+   font-family: "Nunito Light";
+   color: #249B9B;
+   font-weight: 100;
+   letter-spacing: .03vmax;
+
+}
+
+.biop  {
+ font-family: "Nunito Light";
+ letter-spacing: .02vmax;
+
+
+}
+
+.biocaption {
+
+    font-family: "Nunito";
+    text-align: center;
+    font-size: 2vmax;
+    margin-top: 1.5vmax;
+    margin-bottom: 1vmax;
+    letter-spacing: .03vmax;
+
+}
+
+/*Bio Divs*/
+
+#contentbio {
+
+    width:85%;
+    margin:auto;
+}
+
+#bio {
+    
+    margin: 4vmax auto;
+}
+
+#biophoto {
+
+
+ margin: 4vmax auto 1.5vmax auto;
+
+}
+
+statement {
+   
+     margin: auto;
+}
+
+/*Photo and Caption on Bio Page*/
+
+#figurebio {
+    margin: auto;
+}
+
+/*End of Bio specific formatting*/
+
+
+/* Divs */
+
+#wrapper {
+    margin: auto;
+    width:100%;
+
+}
+
+/* Name Banner Divs */
+#fname {
+    width: 60%;
+    margin: 5% 2% 0 38%;
+    
+}
+
+#lname {
+    width: 80%;
+    margin: auto;  
+
+}
+
+/* End Name Banner Divs */
+
+#navbar {
+  width:85%;
+  margin: 6% auto;
+
+}
+#content1 {
+ width: 85%;
+ margin: 10% auto;
+
+}
+
+#lightbox {
+   margin: auto;
+   text-align: center;
+   
+}
+
+/* Media Queries */
+
+
+
+@media screen and (min-width: 650px) {
+
+    #lastname {
+        
+        margin-top: -9vmax;
+    }
+
+}
+/*End media Query for 6500px*/
+
+@media screen and (min-width: 768px) {
+
+/* mouse over link */
+a:hover, a:focus {
+    background-color: #fff;
+}
+
+
+/* Thumbnail size for image gallery*/
+.thumb {
+ display: inline-block;
+ max-height: 11vmax;
+ max-width: 11max; 
+ margin: auto;  
+}
+
+/* Name Banner Divs */
+#fname {
+    width: 35%;
+    margin: 5% 2% 0 62%;
+    
+}
+
+#lname {
+    width: 90%;
+    margin: auto;  
+
+}
+
+#lastname {
+    
+    font-size: 2.25vmax;
+    margin-top: -4vmax;
+}
+
+/* Inline Navbar for browser*/
+
+#navbar {
+  width:80%;
+  margin: auto;
+}
+
+nav ul li {
+    float:left;
+    width: 20%;
+}
+
+
+nav ul li a {
+    display: inline-block;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    padding: 2%;
+    
+}
+
+
+
+
+/*End Navbar Items*/
+
+
+
+#lname {
+    width: 85%;
+    margin: auto;  
+
+}
+
+/*Divs*/
+
+#wrapper {
+    width: 90%;
+
+}
+
+
+#lightbox {
+
+    width:60%;
+}
+
+#content1 {
+    width: 100%;
+    margin: 5% auto;
+}
+
+/* Photo on Index.html page*/
+
+#indexphoto {
+    width:75%;
+    margin:auto;
+    text-align: center;
+
+}
+
+/*Content for Bio Page*/
+
+/*Divs*/
+
+#contentbio {
+
+    width:85%;
+    margin:auto;
+}
+
+
+
+
+ #biophoto {
+    width: 70%;
+    float: right;
+    margin: 4vmax 0 2vmax 2vmax;
+    
+}
+
+
+.biocaption {
+    font-size: 1.5vmax;
+}
+
+
+
+/* Copyright for Browser*/
+
+#copyright {
+  
+  font-size: 1.2vmax;
+  clear: both;
+}
+
+}/*End Media @ 768px*/
+
+ /*Media Query*/
+
+@media screen and (min-width: 1000px) {
+
+
+#lastname {
+     font-size: 2vmax;
+    margin-top: -5vmax;
+}
+
+/*Bio Page*/
+
+#contentbio {
+    width: 68%;
+
+}
+
+
+
+#biophoto {
+
+    width: 60%;
+}
+
+.biocaption {
+    font-size: 1vmax;
+}
+
+
+
+
+}
+/*End Media Query for 1000px*/
+
+
+
+
+/* Clearfix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
