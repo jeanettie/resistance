@@ -8,23 +8,25 @@ namespace resistance.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult jeanettiesblog()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult addedit()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "addedit";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult edit()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "edit";
 
             return View();
         }
+
+        
     }
 }
