@@ -61,7 +61,7 @@ nav ul li {
         height: 2vmax;
         width: 12vmax;
         font-size: 1.5vmax;
-        line-height: 1.9vmax;
+        line-height: 2.1vmax;
     }
 
         /* Links */
@@ -75,12 +75,15 @@ nav ul li {
 
         /* visited link */
         a.button:visited {
+            color:#e1edf0; 
         }
 
-        a.button :hover {
+        a.button:hover {
+            background-color: #08171c;
         }
 
         a.button:active {
+            background-color: #08171c;
         }
         
 
