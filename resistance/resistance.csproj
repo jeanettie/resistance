@@ -148,11 +148,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\blogstyles.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\fonts.css" />
     <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\Molengo-regular\LICENSE.txt" />
+    <Content Include="fonts\Molengo-regular\Molengo-regular.svg" />
+    <Content Include="fonts\Nunito-300\LICENSE.txt" />
+    <Content Include="fonts\Nunito-300\Nunito-300.svg" />
+    <Content Include="fonts\Nunito-regular\LICENSE.txt" />
+    <Content Include="fonts\Nunito-regular\Nunito-regular.svg" />
+    <Content Include="fonts\Poppins-300\LICENSE.txt" />
+    <Content Include="fonts\Poppins-300\Poppins-300.svg" />
+    <Content Include="fonts\Poppins-regular\LICENSE.txt" />
+    <Content Include="fonts\Poppins-regular\Poppins-regular.svg" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\LICENSE.txt" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\Ubuntu-Condensed-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
@@ -160,6 +174,30 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\Molengo-regular\Molengo-regular.eot" />
+    <Content Include="fonts\Molengo-regular\Molengo-regular.ttf" />
+    <Content Include="fonts\Molengo-regular\Molengo-regular.woff" />
+    <Content Include="fonts\Molengo-regular\Molengo-regular.woff2" />
+    <Content Include="fonts\Nunito-300\Nunito-300.eot" />
+    <Content Include="fonts\Nunito-300\Nunito-300.ttf" />
+    <Content Include="fonts\Nunito-300\Nunito-300.woff" />
+    <Content Include="fonts\Nunito-300\Nunito-300.woff2" />
+    <Content Include="fonts\Nunito-regular\Nunito-regular.eot" />
+    <Content Include="fonts\Nunito-regular\Nunito-regular.ttf" />
+    <Content Include="fonts\Nunito-regular\Nunito-regular.woff" />
+    <Content Include="fonts\Nunito-regular\Nunito-regular.woff2" />
+    <Content Include="fonts\Poppins-300\Poppins-300.eot" />
+    <Content Include="fonts\Poppins-300\Poppins-300.ttf" />
+    <Content Include="fonts\Poppins-300\Poppins-300.woff" />
+    <Content Include="fonts\Poppins-300\Poppins-300.woff2" />
+    <Content Include="fonts\Poppins-regular\Poppins-regular.eot" />
+    <Content Include="fonts\Poppins-regular\Poppins-regular.ttf" />
+    <Content Include="fonts\Poppins-regular\Poppins-regular.woff" />
+    <Content Include="fonts\Poppins-regular\Poppins-regular.woff2" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\Ubuntu-Condensed-regular.eot" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\Ubuntu-Condensed-regular.ttf" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\Ubuntu-Condensed-regular.woff" />
+    <Content Include="fonts\Ubuntu-Condensed-regular\Ubuntu-Condensed-regular.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -185,6 +223,7 @@
     <Content Include="Views\Home\edit.cshtml" />
     <Content Include="Views\Home\addedit.cshtml" />
     <Content Include="Views\Home\jeanettiesblog.cshtml" />
+    <Content Include="Views\Shared\_LayoutPageAddEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

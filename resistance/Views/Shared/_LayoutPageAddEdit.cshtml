@@ -1,7 +1,10 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
-      
+
+
+
     <!--Metatags-->
     <meta charset="UTF-8" />
     <meta name="description" content="The Artist website of Jeanette Brown, showcasing various photography &amp mixed media fine art">
@@ -21,7 +24,6 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 
-
 <body>
     <div id="wrapper">
         <div id="fname">
@@ -31,35 +33,31 @@
             <h2 id="lastname">Brown</h2>
         </div>
 
-    
-    <div id="maincontent">
-        <div class="group" id="navbar">
-            <nav>
-                <ul>
-                    <li><a href="http://jeanettie.com/index.html">Home</a></li>
-                    <li><a href="http://jeanettie.com/2D.html">Two Dimensional </a></li>
-                    <li><a href="http://jeanettie.com/3D.html">Three Dimensional </a></li>
-                    <li><a href="http://jeanettie.com/bio.html">Information</a></li>
-                    <li class="active">@Html.ActionLink("Thoughts", "jeanettiesblog", "Home")</li>
-                </ul>
+
+        <div id="maincontent">
+            <div class="group" id="navbar">
+                <nav>
+                    <ul>
+                        
+                        <li class="active button">@Html.ActionLink("New Post", "addedit", "Home", new { @class = "button" })</li>
+                        <li class="button">@Html.ActionLink("Edit", "edit", "Home", new { @class = "button" } )</li>
+                        <li class="button">@Html.ActionLink("Thoughts", "jeanettiesblog", "Home", new { @class = "button" } )</li>
+                    </ul>
                 </nav>
-        </div>
-    
-    
-    
-        @RenderBody()
-        
-        
-        </div> <!--end main content div--> 
-       
+            </div>
+
+            @RenderBody()
+
+        </div> <!--end main content div-->
+
         <footer>
             <p id="copyright">&copy; @DateTime.Now.Year Jeanette Brown</p>
         </footer>
     </div><!--end div wrapper-->
 
     @Scripts.Render("~/bundles/jquery")
-   
-   
+ 
+
     @RenderSection("scripts", required: false)
 </body>
 </html>
