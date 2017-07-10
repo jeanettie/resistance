@@ -27,6 +27,6 @@ namespace resistance.Controllers
             return View();
         }
 
-        
+
     }
 }
