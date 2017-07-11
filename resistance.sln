@@ -5,7 +5,12 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resistance", "resistance\resistance.csproj", "{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C307BFD6-A60B-403E-BE11-76DBD2F54898}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlHelpers", "HtmlHelpers", "{6186377A-EBD4-41E6-9B4B-C8F41B100F0C}"
+	ProjectSection(SolutionItems) = preProject
+		HtmlHelpers.cs = HtmlHelpers.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resistance.Core", "resistance.Core\resistance.Core.csproj", "{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +22,10 @@ Global
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

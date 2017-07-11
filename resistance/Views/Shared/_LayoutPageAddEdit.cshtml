@@ -3,7 +3,7 @@
 <html>
 <head>
 
-
+    
 
     <!--Metatags-->
     <meta charset="UTF-8" />
@@ -37,14 +37,16 @@
         <div id="maincontent">
             <div class="group blognav">
                 <nav>
+                    <div>
                     <ul>
                         
-                        <li class="active button">@Html.ActionLink("New Post", "addedit", "Home", new { @class = "button" })</li>
-                        <li class="button">@Html.ActionLink("Edit", "edit", "Home", new { @class = "button" } )</li>
-                        <li class="button">@Html.ActionLink("Thoughts", "jeanettiesblog", "Home", new { @class = "button" } )</li>
+                        <li>@Html.ActionLink("New Post", "addedit", "Home", new { @class = "button" })  </li>
+                        <li>@Html.ActionLink("Edit", "edit", "Home", new { @class = "button" })</li>
+                        <li>@Html.ActionLink("Thoughts", "jeanettiesblog", "Home", new { @class = "button" })</li>
                     </ul>
-                </nav>
-            </div>
+                    </div>
+         </nav>
+         </div>
 
             @RenderBody()
 

@@ -10,20 +10,21 @@ namespace resistance.Controllers
     {
         public ActionResult jeanettiesblog()
         {
+            
             return View();
         }
 
         public ActionResult addedit()
         {
             ViewBag.Message = "addedit";
-
+            
             return View();
         }
 
         public ActionResult edit()
         {
             ViewBag.Message = "edit";
-
+            
             return View();
         }
 
