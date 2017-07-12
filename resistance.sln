@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HtmlHelpers", "HtmlHelpers"
 		HtmlHelpers.cs = HtmlHelpers.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "resistance.Core", "resistance.Core\resistance.Core.csproj", "{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,10 +20,6 @@ Global
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4E6232-54DF-4859-AC7C-CC206FC7A40E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F44024E7-6DA5-4D51-AE9A-0C21C0F50408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
