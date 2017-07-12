@@ -148,7 +148,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\addeditController.cs" />
-    <Compile Include="Controllers\editController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="DAL\postContext.cs" />
@@ -234,7 +233,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\edit.cshtml" />
     <Content Include="Views\Home\addedit.cshtml" />
     <Content Include="Views\Home\jeanettiesblog.cshtml" />
     <Content Include="Views\Shared\_LayoutPageAddEdit.cshtml" />
@@ -246,8 +244,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\addedit\" />
-    <Folder Include="Views\edit\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
